@@ -32,7 +32,7 @@ export class OrdemCompraComponent implements OnInit {
   public formEstado: string = 'disabled';
 
   // Model de Pedido
-  public pedido: Pedido = new Pedido('', '', '', '');
+  public pedido: Pedido = new Pedido('', '', '', '', []);
 
   // Id do pedido adicionado
   public idPedidoCompra: number;
